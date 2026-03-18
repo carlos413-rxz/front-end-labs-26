@@ -1,5 +1,5 @@
 :root{
-    --font-default: "Roboto", sans-serif;
+    --font-default: "Times New Roman", sans-serif;
     --font-h1-default: #005E60;
     --font-h2-default: #036B5D;
     
@@ -9,7 +9,7 @@
 
 body {
     color: #333333;
-    font-family: "Lucida Sans", "Lucida Grande", sans-serif;
+    font-family: 'Orbitron', sans-serif;
     margin-left: auto;
     margin-right: auto;
     width: 940px;
