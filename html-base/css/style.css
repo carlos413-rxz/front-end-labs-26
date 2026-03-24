@@ -1,43 +1,90 @@
 :root{
     --font-default: "Times New Roman", sans-serif;
-    --font-h1-default: #005E60;
-    --font-h2-default: #036B5D;
-    
+    --color-h1-default: #005E60;
+    --color-h2-default: #036B5D;
 }
 
-
-
+/* corpo */
 body {
     color: #333333;
     font-family: 'Orbitron', sans-serif;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     width: 940px;
-
+    text-align: center;
 }
 
+/* header */
+header{
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* titulo */
 h1 {
-     background-image: url(../img/sobre-background.png);  
-     padding:10px ;  
-    }
-
-h2{ border-bottom: 2px groove #333333;
-    margin-top: 30px;
+    background-image: url(../img/sobre-background.png);
+    padding: 10px;
+    color: var(--color-h1-default);
 }
 
+/* subtitulo */
+h2{
+    border-bottom: 2px groove #333333;
+    margin-top: 30px;
+    color: var(--color-h2-default);
+    text-align: center;
+}
+
+/* figuras */
 figure{
-    background-color: #F2EDED ;
+    background-color: #F2EDED;
     border: 1px solid #ccc;
     text-align: center;
     padding: 15px;
-    margin: 30px;
+    margin: 30px auto;
+    width: 550px;
 }
 
+/* legenda */
 figcaption{
     font-style: italic;
     margin-top: 10px;
 }
+
+/* parágrafos */
 p{
-    padding:0 45px;
+    padding: 0 45px;
     text-indent: 15px;
+    text-align: center;
+}
+
+/* lista */
+ul{
+    list-style-position: inside;
+    text-align: center;
+}
+
+/* centro distribuicao */
+#centro-distribuicao{
+    margin: auto;
+}
+
+/* familia pelho */
+#familia-pelho{
+    margin: auto;
+    float: none;
+}
+
+/* rodape */
+#rodape{
+    color: #777;
+    margin: 30px 0;
+    padding: 30px 0;
+    text-align: center;
+}
+
+/* imagem do rodape */
+#rodape img{
+    margin-right: 10px;
+    vertical-align: middle;
+    width: 94px;
 }
