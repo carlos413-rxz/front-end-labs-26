@@ -1,8 +1,8 @@
 body {
     font-family: system-ui;
-    background: #eee;
+    background: #eeee;
   
-    /* ADICIONADO: centralização total */
+    /*centralização total */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,7 +17,7 @@ body {
     padding: 20px;
     border-radius: 5px;
   
-    /* ADICIONADO: efeito de caixa */
+    /*efeito de caixa */
     box-shadow: 0 4px 10px rgba(0,0,0,0.2);
   }
   
@@ -29,7 +29,7 @@ body {
     font-size: 14px;
   }
   
-  /* Layout com label + campo lado a lado */
+  /*  campo lado a lado */
   .form-group {
     display: flex;
     align-items: center;
