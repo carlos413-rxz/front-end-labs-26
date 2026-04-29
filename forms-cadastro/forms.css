@@ -1,0 +1,93 @@
+body {
+    background-color: #d9d9d9;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    /* CAIXA PRINCIPAL */
+    .container {
+    width: 500px;
+    margin: 20px auto;
+    background-color: #e9d7c3;
+    border: 1px solid #000;
+    padding: 10px;
+    }
+    
+    /* TOPO */
+    .topo {
+    text-align: center;
+    border-bottom: 1px solid #999;
+    padding-bottom: 5px;
+    }
+    
+    .topo h2 {
+    font-size: 18px;
+    margin: 5px 0;
+    }
+    
+    .topo p {
+    font-size: 13px;
+    margin: 0;
+    }
+    
+    /* TÍTULOS DAS SEÇÕES */
+    h3 {
+    background-color: #d2b48c;
+    font-size: 13px;
+    padding: 3px;
+    margin-top: 10px;
+    border: 1px solid #999;
+    }
+    
+    /* GRID DOS CAMPOS */
+    .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3px;
+    margin-top: 5px;
+    }
+    
+    /* LABELS */
+    label {
+    font-size: 11px;
+    }
+    
+    /* INPUTS */
+    input,
+    select {
+    height: 20px;
+    font-size: 11px;
+    border: 1px solid #999;
+    background-color: #f5f5f5;
+    padding-left: 3px;
+    }
+    
+    /* FILE INPUT AJUSTE */
+    input[type="file"] {
+    background-color: #fff;
+    border: none;
+    }
+    
+    /* BOTÕES */
+    .botoes {
+    display: flex;
+    margin-top: 10px;
+    }
+    
+    button {
+    flex: 1;
+    height: 25px;
+    border: none;
+    color: #fff;
+    font-size: 12px;
+    cursor: pointer;
+    }
+    
+    /* CORES DOS BOTÕES */
+    .cancelar {
+    background-color: #ff4d00;
+    }
+    
+    .enviar {
+    background-color: #2b00ff;
+    }
+    
