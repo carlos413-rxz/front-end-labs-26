@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Cards de Ofertas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h2>Cards de Ofertas</h2>
+
+    <div class="container">
+
+        <div class="card">
+            <h3>Gratuito</h3>
+            <p class="preco">R$0<span>/mês</span></p>
+            <ul>
+                <li>✔ 1 usuário</li>
+                <li>✔ 3 contas de design</li>
+                <li>✔ Suporte por e-mail</li>
+            </ul>
+            <button>Escolher plano</button>
+        </div>
+
+        <div class="card destaque">
+            <h3>Elite</h3>
+            <p class="preco">R$99<span>/mês</span></p>
+            <ul>
+                <li>✔ Usuários ilimitados</li>
+                <li>✔ 10 contas de design</li>
+                <li>✔ 100 implantações</li>
+                <li>✔ Suporte 24h por dia</li>
+            </ul>
+            <button>Escolher plano</button>
+        </div>
+
+        <div class="card">
+            <h3>Profissional</h3>
+            <p class="preco">R$49<span>/mês</span></p>
+            <ul>
+                <li>✔ 100 usuários</li>
+                <li>✔ 3 contas de design</li>
+                <li>✔ Suporte por e-mail</li>
+            </ul>
+            <button>Escolher plano</button>
+        </div>
+
+    </div>
+
+    <script>
+        const cards = document.querySelectorAll('.card');
+
+        cards.forEach(card => {
+            card.addEventListener('click', selecionar);
+            const btn = card.querySelector('button');
+
+            btn.addEventListener('click', selecionar);
+
+            function selecionar(e) {
+                e.stopPropagation();
+                cards.forEach(c => c.classList.remove('selecionado'));
+                card.classList.add('selecionado');
+            }
+        });
+    </script>
+
+</body>
+</html>
